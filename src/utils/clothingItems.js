@@ -1,3 +1,8 @@
+import shirtImg from "../assets/clothes/shirt.jpg";
+import sneakersImg from "../assets/clothes/sneakers.jpg";
+import jeansImg from "../assets/clothes/jeans.jpg";
+import loafersImg from "../assets/clothes/loafers.jpg";
+
 const defaultClothingItems = [
   {
     _id: 1,
@@ -39,13 +44,13 @@ const defaultClothingItems = [
     _id: 7,
     name: "Jeans",
     weather: "warm",
-    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Jeans.png?etag=58345e8bef1ce5f95ac882e71d309e6c",
+    link: jeansImg,
   },
   {
     _id: 8,
     name: "Loafers",
     weather: "warm",
-    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Loafers.png?etag=dc2d6e1ca7b297597406e35c40aef030",
+    link: loafersImg,
   },
   {
     _id: 9,
@@ -58,6 +63,12 @@ const defaultClothingItems = [
     name: "Scarf",
     weather: "cold",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Scarf.png?etag=74efbee93810c926b5507e862c6cb76c",
+  },
+  {
+    _id: 17,
+    name: "Shirt",
+    weather: "warm",
+    link: shirtImg,
   },
   {
     _id: 11,
@@ -75,7 +86,7 @@ const defaultClothingItems = [
     _id: 13,
     name: "Sneakers",
     weather: "warm",
-    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Sneakers.png?etag=3efeec41c1c78b8afe26859ca7fa7b6f",
+    link: sneakersImg,
   },
   {
     _id: 14,

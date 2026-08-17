@@ -22,11 +22,17 @@ WTWR is a weather-aware wardrobe app. It checks the current weather for a set lo
 
 ## Screenshots
 
-_Add screenshots of the app here once available._
+**Main view — weather-filtered clothing gallery**
+
+![WTWR main view](docs/screenshots/main-view.png)
+
+**Add garment modal**
+
+![Add garment modal](docs/screenshots/add-garment-modal.png)
 
 ## Live demo
 
-_Add the GitHub Pages link here once the project is deployed._
+[](https://trevswizle.github.io/se_project_react/)
 
 ## Getting started
 
