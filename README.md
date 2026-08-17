@@ -32,7 +32,7 @@ WTWR is a weather-aware wardrobe app. It checks the current weather for a set lo
 
 ## Live demo
 
-[](https://trevswizle.github.io/se_project_react/)
+[View the live demo](https://trevswizle.github.io/se_project_react/)
 
 ## Getting started
 
