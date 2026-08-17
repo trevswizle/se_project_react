@@ -1,0 +1,18 @@
+.weather-card {
+  width: 100%;
+  height: 288px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #4c9fe8 0%, #1a5fa8 100%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+.weather-card__temp {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+}
