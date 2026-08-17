@@ -1,0 +1,6 @@
+node_modules
+dist
+build
+
+# vendor files are third-party and shouldn't be reformatted
+src/vendor/normalize.css
