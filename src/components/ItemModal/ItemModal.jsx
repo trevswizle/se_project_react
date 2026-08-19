@@ -19,8 +19,13 @@ function ItemModal({ isOpen, card, onClose }) {
           onClick={onClose}
           aria-label="Close"
         />
-        <img className="modal__image" src={card.link} alt={card.name} />
-        <p className="modal__caption">{card.name}</p>
+        <div className="modal__card">
+          <img className="modal__image" src={card.link} alt={card.name} />
+          <div className="modal__footer">
+            <p className="modal__caption">{card.name}</p>
+            <p className="modal__weather">Weather: {card.weather}</p>
+          </div>
+        </div>
       </div>
     </div>
   );
